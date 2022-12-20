@@ -22,3 +22,5 @@ def coordinate2D(x1,x2,y1,y2):
 
 res = coordinate2D(xa,xb,ya,yb)
 print(f'Расстояние между точками X и Y = {res}')
+
+# сделал для пулл реквеста
