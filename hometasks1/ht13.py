@@ -13,11 +13,11 @@ y = int(input('Введите Y: '))
 def quarter(xc, yc):
     if xc > 0 and yc > 0:
         return 1
-    if xc > 0 and yc < 0:
+    if xc < 0 and yc > 0:
         return 2
     if xc < 0 and yc < 0:
         return 3
-    if xc < 0 and yc > 0:
+    if xc > 0 and yc < 0:
         return 4
 
 quart = quarter(x, y)

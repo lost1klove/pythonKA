@@ -12,11 +12,11 @@ def quarter_search(xc):
     if xc == 1:
         print('x > 0, y > 0')
     if xc == 2:
-        print('x > 0, y < 0')
+        print('x < 0, y > 0')
     if xc == 3:
         print('x < 0, y < 0')
     if xc == 4:
-        print('x < 0, y > 0')
+        print('x > 0, y < 0')
     if xc > 4:
         print('такой четверти нет')
 
