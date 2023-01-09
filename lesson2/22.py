@@ -8,4 +8,5 @@ num_list =[]
 
 for i in range (1,num+1):
     num_list.append((3*i)+1)
+    
 print(num_list)
