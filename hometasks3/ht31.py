@@ -25,5 +25,5 @@ result = find_summ(new_list)
 # print(our_list)
 print(result)
 
-#commit
+
 
