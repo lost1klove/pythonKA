@@ -22,4 +22,4 @@ def double_ns(num):
 
 
 result = double_ns(n)
-print(*result)
+print(*result, sep="")

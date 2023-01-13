@@ -13,23 +13,23 @@
 # [9.26, 8.5, 1.14]
 # Min: 0.14, Max: 0.5. Difference: 0.36
 import random
+
 n = int(input('Введите количество чисел в списке: '))
 
 float_list = []
 for i in range(n):
-    float_list.append(round(random.uniform(1, n*5), 2))
+    float_list.append(round(random.uniform(1, n * 5), 2))
 
 
 def decimal_nums(list):
     new_diff_list = []
     for i in list:
-        new_diff_list.append(int(round(((i % 1)*100), 2)))
+        new_diff_list.append(int(round(((i % 1) * 100), 2)))
     return new_diff_list
 
 
 def diff(list):
-    min = list[0]
-    max = list[0]
+    min = max = list[0]
     diff_num = 0
     for i in list:
         if i > max:
